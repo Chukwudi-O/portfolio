@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      <h1 style={{textAlign:"center"}}>Hello world</h1>
+      <h1 style={{textAlign:"center"}}>Hello world my name is Chukwudi Ojuro</h1>
     </div>
   );
 }
