@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import Navbar1 from "./Navbar1";
 import { Route, Routes } from "react-router-dom";
+import Navbar1 from "./Navbar1";
 import Home from "../pages/Home";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
   return (
     <Box>
 
-      <Navbar1 title="Portfolio" navItems={navItems}/>
+      <Navbar1 title="Chukwudi Ojuro" navItems={navItems}/>
 
       <Routes>
 
