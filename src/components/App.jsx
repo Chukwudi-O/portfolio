@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "../pages/Home";
 
 function App() {
-  let navItems = [["Home","/"],["Web Dev","/WebDev"]]
+  let navItems = [["Home","/portfolio/"],["Web Dev","/portfolio/WebDev"]]
   return (
     <Box>
 
@@ -13,7 +13,7 @@ function App() {
       <Routes>
 
         <Route path="/" element={<Home/>}/>
-        
+
       </Routes>
 
     </Box>
